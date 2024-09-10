@@ -5,7 +5,6 @@ import { JOB_STATUS, JOB_TYPE } from "../../../utils/constants";
 import { Form, redirect } from "react-router-dom";
 import { toast } from "react-toastify";
 import customFetch from "../utils/customFetch";
-import { query } from "express";
 import { useQuery } from "@tanstack/react-query";
 
 const singleJobQuey = (id) => {
